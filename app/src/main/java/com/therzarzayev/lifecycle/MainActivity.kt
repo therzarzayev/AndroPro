@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         AppCenter.start(
-            application, "95249d98-c33e-46ea-a5b6-58b9fd410f1b",
+            application, "d0ef936e-2ee5-42c0-984e-8461b644b306",
             Analytics::class.java, Crashes::class.java
         )
         Analytics.trackEvent("My custom event");
